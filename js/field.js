@@ -69,7 +69,7 @@ function loadFields() {
                 $('#fieldsTable tbody').on('click', 'tr', function () {
                     const fieldData = $(this).data('field');
                     loadFormWithData(fieldData);
-                    //console.log(fieldData.fieldImage1)
+                    console.log(fieldData)
                 });       
         },
         error: function (xhr, exception) {
