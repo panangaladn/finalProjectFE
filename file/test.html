@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Value Dropdown</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="multiSelect">Select Your Options:</label>
+        <select id="multiSelect" name="options" multiple size="5">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+            <option value="option5">Option 5</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3>Selected Options:</h3>
+    <div id="selectedValues"></div>
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            const selectElement = document.getElementById('multiSelect');
+            const selectedValues = Array.from(selectElement.selectedOptions).map(option => option.value);
+
+            // Display the selected values
+            const displayDiv = document.getElementById('selectedValues');
+            if (selectedValues.length > 0) {
+                displayDiv.textContent = 'You selected: ' + selectedValues.join(', ');
+            } else {
+                displayDiv.textContent = 'No options selected.';
+            }
+        });
+    </script>
+</body>
+</html>

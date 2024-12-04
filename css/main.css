@@ -1,0 +1,241 @@
+.side-menu{
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 25px;
+}
+
+.logo-box{
+    text-align: center; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #bcb2be;
+    margin:10px; 
+    border-radius: 10px;
+}
+
+.logo-box img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 5px; 
+    box-shadow: 6px 3px 4px;
+}
+
+.menu-box{
+    text-align: center; 
+    padding: 10px;
+    border: 1px solid #212121;
+    background-color: #bcb2be;
+    border-radius: 10px;
+    margin:10px;
+    padding:5px;
+    height:33vw;
+  
+}
+.menu-btn{
+    width: 90%;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius:80px 0  80px 0px;
+    text-align: center;
+    font-size: 20px;
+    color:rgb(15, 14, 14);
+    background-color: rgb(171, 235, 171);
+    box-shadow: 1px 2px 3px;    
+}
+.menu-btn:hover{
+    background-color: green;
+    color: aliceblue;
+}
+body{
+    background-color: #bcb2be;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+.title-bar{
+    width: 100%;
+    background-color: #bcb2be;
+    height: 100px;
+    border-radius: 25px;
+    border: 8px solid white;
+    margin-top: 5px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+    font-size: 2em;
+    font-weight: 600;
+}
+.login-box{
+    width: 8%;
+    height: 100%;
+    background-color: #bcb2be;
+    border-radius: 25px;
+    border: 4px solid white;
+    margin: 0  20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+}
+.login-box img{
+    width: 65%;
+}
+.login-box span{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.main-content-box{
+   display: flex;
+   flex-direction: column;
+
+}
+.dash{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.dash-item{
+    width:240px ;
+    height:240px;
+    border: 4px solid rgb(249, 245, 245);
+    margin: 25px;
+    border-radius: 25% 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    box-shadow:1px 8px 1px;
+}
+.dash-item img{   
+    width: 120%;
+    height: 100%;
+   object-fit:contain;
+}
+.dash-item:hover{
+    width:275px ;
+    height:275px;
+
+}
+a{
+    text-decoration: none;
+    color: #212121;
+}
+a:hover{
+    font-size: 120%;
+    color: white;
+}
+.section-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.section-bar span{
+    background-color: rgb(36, 91, 91);
+    color: aliceblue;
+    font-size:1.5vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.form-section{
+    border: 10px solid rgb(244, 241, 241);
+    height: 32vw;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px;
+   
+}
+.table-section{
+    border: 10px solid rgb(245, 244, 244);
+    height: 100px;
+    margin: 10px;
+    height: 32vw;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px;
+    overflow-y: auto;
+}
+.form-section-log{
+    border: 10px solid rgb(244, 241, 241);
+    height: 34vw;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px;
+   
+}
+.table-section-log{
+    border: 10px solid rgb(245, 244, 244);
+    height: 100px;
+    margin: 10px;
+    height: 34vw;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px;
+    overflow-y: auto;
+}
+.form-section-staff{
+    border: 10px solid rgb(244, 241, 241);
+    height: 23vw;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px;
+   
+}
+.table-section-staff{
+    border: 10px solid rgb(245, 244, 244);
+    height: 100px;
+    margin: 10px;
+    height: 32vw;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px;
+    overflow-y: auto;
+}
+#logout{
+    background-color: red;
+    color:white
+}
+table{
+   margin-top: 10px;
+    width:100%;
+    margin-bottom: 10px;
+}
+td{
+    /* border: 1px solid black; */
+    padding: 12px;
+
+}
+.form-label{
+    font-size: 12px;
+    font-weight: 800;
+    padding: 15px;
+}
+.button-bar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.button-bar button{
+    margin: 5px;
+    width: 70px;
+    font-size: 12px;
+    font-weight: 800;
+}
+thead th {
+    position: sticky; 
+    top: 0; 
+    z-index: 1; 
+    background-color: #343a40;
+    color: #fff;
+
+  }
+
+

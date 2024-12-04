@@ -1,0 +1,65 @@
+  <div class="container py-4">
+                    
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <!-- Block 1 -->
+                        <div class="col-12 col-md-3 col-lg-2 ">
+                            <div class="card text-center">
+                                <img src="../image/home_01.png" class="card-img-top" alt="Block 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Block 1</h5>
+                                    <p class="card-text">This is a description for block 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Block 2 -->
+                        <div class="col-12 col-md-3 col-lg-2 ">
+                            <div class="card text-center">
+                                <img src="../image/home_01.png" class="card-img-top" alt="Block 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Block 1</h5>
+                                    <p class="card-text">This is a description for block 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Block 3 -->
+                        <div class="col-12 col-md-3 col-lg-2 ">
+                            <div class="card text-center">
+                                <img src="../image/home_01.png" class="card-img-top" alt="Block 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Block 1</h5>
+                                    <p class="card-text">This is a description for block 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                          <!-- Block 1 -->
+                          <div class="col-12 col-md-3 col-lg-2 ">
+                            <div class="card text-center">
+                                <img src="../image/home_01.png" class="card-img-top" alt="Block 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Block 1</h5>
+                                    <p class="card-text">This is a description for block 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Block 2 -->
+                        <div class="col-12 col-md-3 col-lg-2 ">
+                            <div class="card text-center">
+                                <img src="../image/home_01.png" class="card-img-top" alt="Block 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Block 1</h5>
+                                    <p class="card-text">This is a description for block 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Block 3 -->
+                        <div class="col-12 col-md-3 col-lg-2 ">
+                            <div class="card text-center">
+                                <img src="../image/home_01.png" class="card-img-top" alt="Block 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Block 1</h5>
+                                    <p class="card-text">This is a description for block 1.</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>    
+            </div>
